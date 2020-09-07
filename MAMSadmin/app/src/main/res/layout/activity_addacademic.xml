@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:padding="20dp"
+    tools:context="apex.mams.admin.addacademicActivity">
+
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Academic Year : "
+            android:textSize="20sp" />
+
+        <NumberPicker
+            android:layout_marginTop="20dp"
+            android:id="@+id/yearpicker"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+               android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                android:id="@+id/start_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Starting Date"
+                android:focusable="false"
+                android:nextFocusDown="@+id/rd"
+                android:inputType="date" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/end_date"
+                android:layout_width="match_parent"
+                android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                android:layout_height="wrap_content"
+                android:hint="Select Ending Date"
+                android:focusable="false"
+                android:nextFocusDown="@+id/rd"
+                android:inputType="date" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_margin="20dp"
+                android:background="@drawable/card_background"
+                android:id="@+id/btn_addacademic"
+                android:text="Add Academic Year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

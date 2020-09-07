@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/txt_Atsrno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sr. no"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/txt_Atenno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enrollment No"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/txt_sub1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject 1"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/txt_sub2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject 2"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/txt_sub3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject 3"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/txt_sub4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject 4"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/txt_sub5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject 5"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/txt_sub6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject 6"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/txt_sub7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject 7"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/txt_sub8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject 8"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">109541552035-7v324ha98dbqarslj00sibfgujg7i3jn.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://mamsadmin-1a4a0.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">109541552035</string>
+    <string name="google_api_key" translatable="false">AIzaSyB9Yt6iDsWlCBWAIAFMJZw8-Ppjn8MkBuk</string>
+    <string name="google_app_id" translatable="false">1:109541552035:android:94268f26bc12c41f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB9Yt6iDsWlCBWAIAFMJZw8-Ppjn8MkBuk</string>
+    <string name="google_storage_bucket" translatable="false">mamsadmin-1a4a0.appspot.com</string>
+    <string name="project_id" translatable="false">mamsadmin-1a4a0</string>
+</resources>

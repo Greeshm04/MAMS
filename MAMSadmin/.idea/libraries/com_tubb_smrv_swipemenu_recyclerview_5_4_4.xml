@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.tubb.smrv:swipemenu-recyclerview-5.4.4">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/swipemenu-recyclerview-5.4.4.aar/f1a9c5e5ea48819c40cdcaf3fc7fcf12/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/swipemenu-recyclerview-5.4.4.aar/f1a9c5e5ea48819c40cdcaf3fc7fcf12/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tubb.smrv/swipemenu-recyclerview/5.4.4/8d76aa55993d48d361216fc8c82655fabc6e1b7d/swipemenu-recyclerview-5.4.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

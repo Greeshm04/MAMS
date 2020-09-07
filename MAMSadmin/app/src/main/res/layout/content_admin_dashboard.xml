@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="apex.mams.admin.AdminDashboardActivity">
+
+<FrameLayout
+    android:id="@+id/rel_for_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--app:srcCompat="@android:drawable/ic_input_add"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|end|right"-->
+        <!--android:layout_margin="@dimen/fab_margin"-->
+        <!--app:fabSize="normal"-->
+        <!--/>-->
+</FrameLayout>
+</android.support.constraint.ConstraintLayout>

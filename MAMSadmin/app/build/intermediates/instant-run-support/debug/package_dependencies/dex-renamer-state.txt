@@ -1,0 +1,4 @@
+#Fri Apr 20 11:27:09 IST 2018
+base.0=I\:\\1st Project\\MAMSadmin\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+renamed.0=classes.dex
+file.0=I\:\\1st Project\\MAMSadmin\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10\\classes.dex

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_dashboard"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/menu_notice"
+            android:icon="@drawable/uploadnotice"
+            android:title="Upload Your Notice" />
+        <item
+            android:id="@+id/menu_material"
+            android:icon="@drawable/material"
+            android:title="Material" />
+        <item
+            android:id="@+id/menu_atttendance"
+            android:icon="@drawable/attendance"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/menu_atttendanceReport"
+            android:icon="@drawable/attendancereport"
+            android:title="Attendance Report" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/user_profile"
+                android:title="Update Profile" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/changepassword"
+                android:title="Change Password" />
+        </menu>
+    </item>
+
+</menu>

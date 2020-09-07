@@ -1,0 +1,48 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="apex.mams.admin.AcademicFragment">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/SwipeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txt_nodata"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="NO DATA AVAILABLE"
+                android:textAlignment="center" />
+
+            <com.baoyz.swipemenulistview.SwipeMenuListView
+                android:id="@+id/list_academic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:dividerHeight="0dp">
+
+            </com.baoyz.swipemenulistview.SwipeMenuListView>
+            <!--<Button-->
+            <!--android:id="@+id/btn_add_faculty"-->
+            <!--android:text="add new"-->
+            <!--android:layout_gravity="bottom|end"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+            <include layout="@layout/content_admin_dashboard" />
+        </FrameLayout>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+

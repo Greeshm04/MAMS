@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_DashBoard"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_Faculty"
+            android:icon="@drawable/faculty"
+            android:title="Faculty" />
+        <item
+            android:id="@+id/nav_Student"
+            android:icon="@drawable/student"
+            android:title="Student" />
+        <item
+            android:id="@+id/nav_Subject"
+            android:icon="@drawable/subject"
+            android:title="Subject" />
+        <item
+            android:id="@+id/nav_Academic"
+            android:icon="@drawable/academic"
+            android:title="Academic Year" />
+
+        <item
+            android:id="@+id/nav_AttendanceReport"
+            android:icon="@drawable/attendance"
+            android:title="Attendance Report" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/changepassword"
+                android:title="Change Password" />
+        </menu>
+    </item>
+
+</menu>

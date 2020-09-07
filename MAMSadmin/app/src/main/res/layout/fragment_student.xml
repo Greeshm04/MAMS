@@ -1,0 +1,94 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="apex.mams.admin.StudentFragment">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/SwipeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="end"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:layout_gravity="left"
+                    android:id="@+id/spn_StudentAcademic"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:paddingLeft="229dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txtselectall"
+                        android:text="Select All"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <CheckBox
+                        android:id="@+id/cbforall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btn_update_all"
+                        android:background="@drawable/ic_edit_black_24dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+                    <Button
+                        android:id="@+id/btn_delete_all"
+                        android:background="@drawable/ic_delete_black_24dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+                </LinearLayout>
+                <!--<ListView-->
+                <!--android:id="@+id/list_Student"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent" />-->
+
+                <TextView
+                    android:id="@+id/txt_nodata"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="NO DATA AVAILABLE"
+                    android:textAlignment="center" />
+
+                <com.baoyz.swipemenulistview.SwipeMenuListView
+                    android:divider="@null"
+                    android:dividerHeight="0dp"
+                    android:id="@+id/list_Student"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </com.baoyz.swipemenulistview.SwipeMenuListView>
+
+                <!--<Button-->
+                <!--android:id="@+id/btn_add_student"-->
+                <!--android:text="add new"-->
+                <!--android:layout_gravity="end|bottom"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+                <include layout="@layout/content_admin_dashboard" />
+            </LinearLayout>
+
+        </FrameLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</android.support.constraint.ConstraintLayout>
