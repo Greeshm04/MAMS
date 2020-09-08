@@ -36,7 +36,7 @@ For running the application, following are the Software Requirements:
 
 
 ## Project Flow
-<img src="(https://user-images.githubusercontent.com/32408194/92412035-ea1e4800-f167-11ea-9760-cd19a24463e6.jpg)"  width="900" height="900" />
+<img src="https://user-images.githubusercontent.com/32408194/92436555-942abe00-f1c2-11ea-92de-e5f0929b088a.jpg"  width="900" height="900" />
 
 
 ## Sample Output
